@@ -1,0 +1,83 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "AnimTxTitleText",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 22,
+  "curveData": {
+    "paths": {
+      "event_tx_duday_07": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": -100
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": -50
+            }
+          ]
+        }
+      },
+      "event_tx_duday_13": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 120
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 120
+            },
+            {
+              "frame": 0.5,
+              "value": 170
+            }
+          ]
+        }
+      },
+      "event_tx_duday_07/event_tx_duday_03": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": 255
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": 0
+            },
+            {
+              "frame": 0.5,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "event_tx_duday_13/event_tx_duday_02": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": -72
+            },
+            {
+              "frame": 0.5,
+              "value": 66.697
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

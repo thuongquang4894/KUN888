@@ -1,0 +1,118 @@
+
+logo-giauto.png
+size: 920,920
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 470, 24
+  size: 95, 83
+  orig: 95, 83
+  offset: 0, 0
+  index: -1
+Layer 13
+  rotate: false
+  xy: 499, 463
+  size: 194, 227
+  orig: 194, 227
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: true
+  xy: 470, 121
+  size: 156, 83
+  orig: 156, 83
+  offset: 0, 0
+  index: -1
+Loading
+  rotate: true
+  xy: 849, 719
+  size: 196, 40
+  orig: 196, 40
+  offset: 0, 0
+  index: -1
+ao11
+  rotate: true
+  xy: 782, 511
+  size: 179, 80
+  orig: 179, 80
+  offset: 0, 0
+  index: -1
+dau
+  rotate: false
+  xy: 470, 279
+  size: 127, 179
+  orig: 127, 179
+  offset: 0, 0
+  index: -1
+ff
+  rotate: false
+  xy: 2, 460
+  size: 495, 455
+  orig: 495, 455
+  offset: 0, 0
+  index: -1
+tay1
+  rotate: false
+  xy: 599, 330
+  size: 93, 131
+  orig: 93, 131
+  offset: 0, 0
+  index: -1
+tay2
+  rotate: true
+  xy: 744, 403
+  size: 56, 33
+  orig: 56, 33
+  offset: 0, 0
+  index: -1
+tay2-1
+  rotate: false
+  xy: 782, 462
+  size: 54, 47
+  orig: 54, 47
+  offset: 0, 0
+  index: -1
+tay2-2
+  rotate: false
+  xy: 694, 363
+  size: 48, 96
+  orig: 48, 96
+  offset: 0, 0
+  index: -1
+tay2-3
+  rotate: true
+  xy: 694, 315
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+toc
+  rotate: true
+  xy: 695, 461
+  size: 229, 85
+  orig: 229, 85
+  offset: 0, 0
+  index: -1
+ui_get_flash008
+  rotate: false
+  xy: 599, 261
+  size: 68, 67
+  orig: 68, 67
+  offset: 0, 0
+  index: -1
+vang11
+  rotate: false
+  xy: 499, 692
+  size: 348, 223
+  orig: 348, 223
+  offset: 0, 0
+  index: -1
+vopmn
+  rotate: true
+  xy: 2, 2
+  size: 456, 466
+  orig: 456, 466
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,57 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "anim_btn_sukien",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 22,
+  "curveData": {
+    "paths": {
+      "btn_sukien_1": {
+        "props": {
+          "scaleY": [
+            {
+              "frame": 0,
+              "value": 0.9
+            },
+            {
+              "frame": 0.5,
+              "value": 1
+            }
+          ]
+        }
+      },
+      "btn_sukien_2": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": -20
+            },
+            {
+              "frame": 0.5,
+              "value": -10
+            }
+          ]
+        }
+      },
+      "btn_sukien_3": {
+        "props": {
+          "x": [
+            {
+              "frame": 0,
+              "value": 10
+            },
+            {
+              "frame": 0.5,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

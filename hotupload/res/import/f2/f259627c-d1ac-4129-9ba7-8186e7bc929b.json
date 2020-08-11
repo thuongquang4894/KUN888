@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"thanlong-scale","_duration":0.7666666666666667,"wrapMode":22,"curveData":{"props":{"scale":[{"frame":0,"value":{"__type__":"cc.Vec2","x":0.6,"y":0.6}},{"frame":0.7666666666666667,"value":{"__type__":"cc.Vec2","x":0.8,"y":0.8}}]}}}

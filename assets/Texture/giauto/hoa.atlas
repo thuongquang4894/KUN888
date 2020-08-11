@@ -1,0 +1,62 @@
+
+hoa.png
+size: 208,208
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 18
+  rotate: false
+  xy: 83, 17
+  size: 14, 17
+  orig: 14, 17
+  offset: 0, 0
+  index: -1
+Layer 19
+  rotate: true
+  xy: 83, 2
+  size: 13, 16
+  orig: 13, 16
+  offset: 0, 0
+  index: -1
+Layer 21
+  rotate: false
+  xy: 2, 5
+  size: 79, 37
+  orig: 79, 37
+  offset: 0, 0
+  index: -1
+Layer 22
+  rotate: false
+  xy: 2, 44
+  size: 83, 52
+  orig: 83, 52
+  offset: 0, 0
+  index: -1
+Layer 23
+  rotate: false
+  xy: 149, 44
+  size: 36, 27
+  orig: 36, 27
+  offset: 0, 0
+  index: -1
+Layer 24
+  rotate: false
+  xy: 149, 73
+  size: 43, 23
+  orig: 43, 23
+  offset: 0, 0
+  index: -1
+hd
+  rotate: false
+  xy: 2, 98
+  size: 191, 108
+  orig: 191, 108
+  offset: 0, 0
+  index: -1
+hoa1111
+  rotate: false
+  xy: 87, 36
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1

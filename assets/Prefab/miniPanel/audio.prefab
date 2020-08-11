@@ -1,0 +1,125 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false,
+    "readonly": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "audio",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_level": 1,
+    "_components": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_prefab": {
+      "__id__": 3
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_zIndex": 0,
+    "_is3DNode": false,
+    "groupIndex": 0,
+    "_id": "",
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "__type__": "738b2QcBnhOn7bLV2UFI4l9",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "audioClick": {
+      "__uuid__": "ca1da100-e6d1-4e06-8b1f-db5764ca4abe"
+    },
+    "audioClick2": {
+      "__uuid__": "0f5b5114-fb9f-40a2-b220-f82fa8597bf5"
+    },
+    "thongbao_jackpot": {
+      "__uuid__": "de584386-ceb1-4c23-9667-b6191d9db7d5"
+    },
+    "jackpot": {
+      "__uuid__": "687f0aec-fc80-4743-aa7c-d4de0d7ee99f"
+    },
+    "bigWin": {
+      "__uuid__": "99746e16-1bb2-40c5-8fab-6a3504503203"
+    },
+    "moneywin": {
+      "__uuid__": "da109e72-3eb3-4a9c-88c0-624840f423e2"
+    },
+    "bonus": {
+      "__uuid__": "016e7309-f14b-461a-aac2-73af605aba15"
+    },
+    "megaWin": {
+      "__uuid__": "f23a7407-e4d1-4585-8025-21acc99a55e2"
+    },
+    "winHu": {
+      "__uuid__": "ec1fe368-b516-4194-afeb-3eebbca25138"
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__uuid__": "a1e26694-d2d0-47f8-a280-d1bffd2e5972"
+    },
+    "fileId": "63rbeyPoZADrnXE/XVeX0q",
+    "sync": false
+  }
+]

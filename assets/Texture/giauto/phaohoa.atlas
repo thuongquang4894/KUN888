@@ -1,0 +1,76 @@
+
+phaohoa.png
+size: 740,740
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: true
+  xy: 2, 5
+  size: 257, 219
+  orig: 257, 219
+  offset: 0, 0
+  index: -1
+Layer 10
+  rotate: false
+  xy: 560, 282
+  size: 178, 175
+  orig: 178, 175
+  offset: 0, 0
+  index: -1
+Layer 2
+  rotate: false
+  xy: 2, 264
+  size: 291, 232
+  orig: 291, 232
+  offset: 0, 0
+  index: -1
+Layer 3
+  rotate: false
+  xy: 2, 498
+  size: 305, 240
+  orig: 305, 240
+  offset: 0, 0
+  index: -1
+Layer 4
+  rotate: false
+  xy: 309, 483
+  size: 269, 255
+  orig: 269, 255
+  offset: 0, 0
+  index: -1
+Layer 5
+  rotate: false
+  xy: 295, 239
+  size: 263, 242
+  orig: 263, 242
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: true
+  xy: 223, 2
+  size: 235, 217
+  orig: 235, 217
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: true
+  xy: 442, 32
+  size: 205, 196
+  orig: 205, 196
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: true
+  xy: 580, 586
+  size: 152, 153
+  orig: 152, 153
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: true
+  xy: 580, 459
+  size: 125, 131
+  orig: 125, 131
+  offset: 0, 0
+  index: -1
