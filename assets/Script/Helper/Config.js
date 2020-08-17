@@ -1,5 +1,5 @@
 
 module.exports = {
-    HOST: "https://api.kun888.club",
-    SOCKET: "wss://api.kun888.club"
+    HOST: "service.kun888.club",
+    SOCKET: "service.kun888.club"
 };

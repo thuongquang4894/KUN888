@@ -1,4 +1,4 @@
-node version_generator.js -v 1.11.0 -u https://service.kun888.club/kun88-update/kun88-remote-asset/ -s build/jsb-default/ -d assets
+node version_generator.js -v 1.21.0 -u https://service.kun888.club/kun88-update/kun88-remote-asset/ -s build/jsb-default/ -d assets
 
 if (cc.sys.isNative) {
    var hotUpdateSearchPaths = cc.sys.localStorage.getItem('HotUpdateSearchPaths');

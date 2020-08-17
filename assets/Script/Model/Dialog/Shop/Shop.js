@@ -42,12 +42,7 @@ cc.Class({
 			this.header = result;
 		});
 	},
-	onEnable: function () {
-		cc.RedT.inGame.header.node.active = false;
-	},
-	onDisable: function () {
-		cc.RedT.inGame.header.node.active = true;
-	},
+	
 	onSelectHead: function(event, name){
 		Promise.all(this.header.map(function(header) {
 			if (header.node.name == name) {

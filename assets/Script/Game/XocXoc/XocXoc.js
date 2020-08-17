@@ -175,11 +175,10 @@ cc.Class({
 		this.me_name.string = cc.RedT.user.name;
 		this.me_balans.string = helper.numberWithCommas(cc.RedT.user.red);
 
-		cc.RedT.send({scene:"xocxoc", g:{xocxoc:{ingame:true}}});
+		cc.RedT.send({scene:"xocxoc", g:{reg:"XocXoc",xocxoc:{ingame:true}}});
 	},
 	onData: function(data) {
 		//console.log(data);
-		cc.log("xocxoc onData:"+JSON.stringify(data));
 		if (void 0 !== data.user){
 			this.userData(data.user);
 			cc.RedT.userData(data.user);
@@ -218,7 +217,6 @@ cc.Class({
 		}
 	},
 	xocxoc: function(data){
-		console.log("xocxoc:"+JSON.stringify(data));
 		if (!!data.ingame) {
 			this.xocxocIngame(data.ingame);
 		}
@@ -747,6 +745,7 @@ cc.Class({
 		}
 	},
 	resetData: function(){
+		this.betCurrent = "";
 		this.box_chan.children[1].removeAllChildren();
 		this.box_le.children[1].removeAllChildren();
 		this.box_white4.children[1].removeAllChildren();
@@ -916,7 +915,18 @@ cc.Class({
 		this.updateMeCoint();
 	},
 	onCuoc: function(event, box){
-		cc.RedT.send({g:{xocxoc:{cuoc:{red:this.red, cuoc:this.cuoc, box:box}}}});
+		if(this.betCurrent == undefined || this.betCurrent == null || this.betCurrent == ""){
+			cc.RedT.send({g:{xocxoc:{cuoc:{red:this.red, cuoc:this.cuoc, box:box}}}});
+		}
+		else{
+			if(this.betCurrent == box)
+			{
+				cc.RedT.send({g:{xocxoc:{cuoc:{red:this.red, cuoc:this.cuoc, box:box}}}});
+			}
+			else{
+				this.addNotice("Chỉ được phép đặt 1 cửa");
+			}
+		}
 	},
 	addNotice:function(text){
 		var notice = cc.instantiate(this.prefabNotice)
@@ -991,7 +1001,9 @@ cc.Class({
 		let nodeBet = null;
 		let nodeBox = null;
 		let max     = this.maxBox1_3;
-
+		if(this.betCurrent == undefined || this.betCurrent == null || this.betCurrent == ""){
+			this.betCurrent = data.box;
+		}
 		this.bet.children.forEach(function(bet){
 			if (bet.name == data.cuoc) {
 				nodeBet = bet;
